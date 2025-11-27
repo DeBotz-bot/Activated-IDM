@@ -1,3 +1,6 @@
+### 📝 **Latest Verison**
+- Support Internet Download Manager 6.42 Build 42
+
 ## 💪 **Features**
 
 - ✅ Aktifkan Internet Download Manager secara gratis.
