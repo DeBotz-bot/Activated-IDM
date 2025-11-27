@@ -1,0 +1,44 @@
+## 💪 **Features**
+
+- ✅ Aktifkan Internet Download Manager secara gratis.
+- 🛠 Antarmuka yang sederhana dan mudah digunakan.
+- 🌐 Validasi versi otomatis (skrip dan IDM).
+- 📂 Kompatibel dengan berbagai versi IDM.
+- 💻 Ringan dan cepat.
+
+## 🛠️ **Installation**
+
+1. **Klik kanan Run Jalankan file IASL.cmd**
+      - Skrip akan secara otomatis meminta izin administratif jika diperlukan, sehingga Anda tidak perlu lagi memilih “Jalankan sebagai Administrator” secara manual.
+      - Jika diminta oleh Kontrol Akun Pengguna (UAC), klik **Ya** untuk memberikan izin yang diperlukan.
+      - Setelah di-elevate, skrip akan terus berjalan dengan izin yang sesuai untuk operasi file.
+2. **Lakukan Sesuai Intruksi yang muncul**
+
+   ```powershell
+   irm https://coporton.com/ias | iex
+   ```
+
+### **Follow the On-Screen Instructions:**
+- Choose an option from the menu:
+  - `1` to Download Latest IDM Version.
+  - `2` to Activate Internet Download Manager.
+  - `3` to Extra FileTypes Extensions.
+  - `4` to Do Everything (2 + 3).
+  - `5` Clean Previous IDM Registry Entries.
+  - `6` to exit.
+- If you select `4`, the script will copy the necessary files to the appropriate directory and provide feedback on the operation status.
+
+
+## 📄 **BIN Files**
+
+### These files are not encrypted; you can rename them to view the source file:
+
+- `data.bin` - Contains a activated version of IDMan.exe.
+- `dataHlp.bin` - Contains a help support version of IDMGrHlp.exe.
+- `Registry.bin` - Registry values to activate Internet Download Manager.
+- `extensions.bin` - Registry entries for extra Internet Download Manager file extensions.
+
+## 📜 **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
