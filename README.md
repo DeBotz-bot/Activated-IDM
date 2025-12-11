@@ -11,16 +11,19 @@
 
 ## 🛠️ **Installation**
 
-1. **Klik kanan Run Jalankan file IASL.cmd**
-      - Skrip akan secara otomatis meminta izin administratif jika diperlukan, sehingga Anda tidak perlu lagi memilih “Jalankan sebagai Administrator” secara manual.
+1. **Buka PowerShell RUN**
+      - “Jalankan sebagai Administrator” secara manual.
       - Jika diminta oleh Kontrol Akun Pengguna (UAC), klik **Ya** untuk memberikan izin yang diperlukan.
-      - Setelah di-elevate, skrip akan terus berjalan dengan izin yang sesuai untuk operasi file.
-2. **Lakukan Sesuai Intruksi yang muncul**
+2. **Copy Url dibawah**
 
    ```powershell
    irm https://raw.githubusercontent.com/DeBotz-bot/Activated-IDM/master/run-idm-activator.ps1 | iex
    ```
-
+      - Paste ke terminal lalu Enter
+      - Pilih Bagian Opion 2 untuk Aktivasi lalu Enter
+      - Masukkan Nama depan dan Nama belakang lalu Enter
+      - Tunggu, dan selesai
+      
 ### **Follow the On-Screen Instructions:**
 - Choose an option from the menu:
   - `1` to Download Latest IDM Version.
