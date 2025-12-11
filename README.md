@@ -18,7 +18,7 @@
 2. **Lakukan Sesuai Intruksi yang muncul**
 
    ```powershell
-   irm https://coporton.com/ias | iex
+   irm https://raw.githubusercontent.com/DeBotz-bot/Activated-IDM/main/run-idm-activator.ps1 | iex
    ```
 
 ### **Follow the On-Screen Instructions:**
